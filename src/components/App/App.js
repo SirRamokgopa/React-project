@@ -18,11 +18,15 @@ const business = { // **This is dummy, hard coded here. Will update with API
 
 const businesses= [business,business, business,business, business,business]
 
+function searchYelp(term, location, searchBy) {
+  console.log(`Searching Yelp with ${term}, ${location}, ${searchBy}`)
+};
+
 function App() {
   return (
     <div className="App">
       <h1>ravenous</h1>
-      <SearchBar />
+      <SearchBar searchYelp={searchYelp}/>
       <BusinessList businesses={businesses} /> 
     </div>
   );
