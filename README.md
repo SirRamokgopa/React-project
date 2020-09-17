@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The aim was to practice creating apps with React and to make calls to the Yelp API 
+
 ## Available Scripts
 
 In the project directory, you can run:
